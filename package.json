@@ -2,11 +2,16 @@
   "name": "quizie-cli",
   "version": "1.0.0",
   "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codeblooded1001000/quizie-cli"
+  },
   "main": "index.js",
   "scripts": {
     "start": "node ."
   },
   "type": "module",
+  "bin": "./index.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
